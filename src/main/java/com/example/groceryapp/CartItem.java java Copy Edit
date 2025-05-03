@@ -1,0 +1,15 @@
+package com.example.groceryapp.model;
+
+public class CartItem {
+    private Product product;
+    private int quantity;
+
+    public CartItem() {}
+
+    public CartItem(Product product, int quantity) {
+        this.product = product;
+        this.quantity = quantity;
+    }
+
+    // Getters, Setters, Total Price Method
+}
