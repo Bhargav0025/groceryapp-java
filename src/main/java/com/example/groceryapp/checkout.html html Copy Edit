@@ -1,0 +1,8 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head><title>Checkout</title></head>
+<body>
+<h1 th:text="${message}">Thank you for shopping!</h1>
+<a href="/">Shop More</a>
+</body>
+</html>
